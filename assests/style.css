@@ -476,4 +476,18 @@ li {
     .ban-img img{
         width: 100% !important;
     }
+
+    .ban-img{
+        width: 100%;
+    }
+
+    .abt-content h2{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .service h2, .service p{
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+    }
 }
