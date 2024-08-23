@@ -406,6 +406,8 @@ li {
         flex-direction: column;
     }
 
+    
+
     .navbar-brand img{
         width: 150px;
         margin-left: 1rem;
@@ -471,6 +473,11 @@ li {
 
     .ban-content{
         padding: 1rem !important;
+        width: 100vw;
+    }
+
+    .ban-content p{
+        width: 90%;
     }
 
     .ban-img img{
@@ -478,7 +485,7 @@ li {
     }
 
     .ban-img{
-        width: 100%;
+        width: 100vw !important;
     }
 
     .abt-content h2{
