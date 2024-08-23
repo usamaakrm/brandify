@@ -397,12 +397,23 @@ li {
 }
 
 @media screen and (max-width: 650px) {
+    body{
+        overflow-x: hidden;
+    }
+    
     .flex{
         flex-direction: column;
     }
 
+    .navbar-brand img{
+        width: 150px;
+        margin-left: 1rem;
+    }
+
     .ban-content {
         width: 100%;
+        margin-top: -4rem;
+        margin-bottom: 3.5rem;
     }
 
     /* body{
@@ -451,5 +462,13 @@ li {
 
     .footer{
         flex-direction: column;
+    }
+
+    section{
+        padding: 1rem !important;
+    }
+
+    .ban-content{
+        padding: 1rem !important;
     }
 }
