@@ -247,6 +247,10 @@ footer {
     margin: 2rem;
 }
 
+.f1 img{
+    margin-right: 10px;
+}
+
 .footer h3,
 .footer h4 {
     margin-bottom: 2rem !important;
@@ -396,6 +400,10 @@ li {
     margin-bottom: 3rem;
 }
 
+span{
+    margin-left: 2rem;
+}
+
 @media screen and (max-width: 650px) {
     body{
         width: 100%;
@@ -496,5 +504,9 @@ li {
     .service h2, .service p{
         margin: 0 1rem;
         margin-bottom: 2rem;
+    }
+
+    .f1{
+        width: 100%;
     }
 }
