@@ -472,4 +472,8 @@ li {
     .ban-content{
         padding: 1rem !important;
     }
+
+    .ban-img img{
+        width: 100% !important;
+    }
 }
