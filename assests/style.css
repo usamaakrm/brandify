@@ -1,10 +1,11 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 ;
 }
 
 body {
-    width: 100%;
+    width: 100% !important;
+    overflow-x: hidden;
 }
 
 .container a {
@@ -20,17 +21,19 @@ p {
 /* h1, h2, h3{
     color: #033535;
 } */
-
-section {
-    margin: 5rem 0;
-}
-
 .container {
     padding: 0rem !important;
-    margin: 0 auto !important;
+    margin: 0rem !important;
+}
+section {
+    padding: 5rem 3rem !important;
+    width: 100% !important;
 }
 
+
+
 .flex {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -38,7 +41,26 @@ section {
 }
 
 .navbar {
-    padding: 2rem 0 !important;
+    padding: 0 3rem  !important;
+    position: fixed !important;
+    background-color: white;
+    width: 100% !important;
+    z-index: 100;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item{
+    margin: 0 1rem;
+}
+
+.navbar-nav{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button {
@@ -66,7 +88,32 @@ button {
 }
 
 .banner {
-    padding: 0 3rem 0 0 !important;
+    padding: 3rem;
+    background-image: url(./banner\ photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+}
+
+.social-icons{
+    text-align: center;
+    position: absolute;
+    right: 2rem;
+    top: 40%;
+}
+
+.social-icons img{
+    margin: .5rem;
+}
+
+.banner h2{
+   text-align: center !important;
+   color: white;
+   width: 100%;
 }
 
 .ban-img {
@@ -161,9 +208,9 @@ button {
 
 /*  abt-us  */
 
-.abt-us {
-    margin-top: 5rem;
-}
+/* .abt-us {
+    margin-top: 2rem;
+} */
 
 .abt-1 {
     width: 30%;
@@ -185,14 +232,15 @@ button {
 
 /*  service */
 
-.service h2{
+.service h2 {
     font-size: 3rem !important;
     font-weight: 700;
+    text-align: center;
 }
 
-.service p{
+.service p {
     font-size: 1rem;
-    
+    text-align: center;
 }
 
 .service-items {
@@ -215,6 +263,11 @@ button {
     background-color: #033535;
     transition: .3s ease-in-out;
     color: #fff;
+}
+
+.ser-cont{
+    padding: 2rem 3rem;
+    z-index: 20;
 }
 
 .service-cont div {
@@ -247,7 +300,7 @@ footer {
     margin: 2rem;
 }
 
-.f1 img{
+.f1 img {
     margin-right: 10px;
 }
 
@@ -267,7 +320,7 @@ footer {
 }
 
 .f3 img {
-    width: 50px;
+    width: 40px;
     margin-bottom: 10px;
 }
 
@@ -332,10 +385,10 @@ li {
     color: black;
     padding: 4rem;
     transition: .3s ease-in-out;
-    
+
 }
 
-.card__face--front2{
+.card__face--front2 {
     transition: .1s ease-in-out;
     background: #edf7f1;
     color: black;
@@ -351,48 +404,49 @@ li {
 
 }
 
-.card__face h5{
+.card__face h5 {
     margin-top: 5rem;
 }
 
-.card__face--front h4, .card__face--front2 h4{
-     color: #033535;
-     text-align: left;
-     border-left: 2px solid #a7b2b2;
-     height: 60px;
-     padding-left: 2rem;
-     font-size: 1.4rem;
-     align-items: center;
-     align-content: center;
+.card__face--front h4,
+.card__face--front2 h4 {
+    color: #033535;
+    text-align: left;
+    border-left: 2px solid #a7b2b2;
+    height: 60px;
+    padding-left: 2rem;
+    font-size: 1.4rem;
+    align-items: center;
+    align-content: center;
 }
 
-.card__face h5{
+.card__face h5 {
     text-align: left;
     font-weight: 400;
     font-size: 1rem;
 }
 
-.card__face img{
+.card__face img {
     width: 25px;
     margin-left: .5rem;
 }
 
-.card__face--back{
+.card__face--back {
     text-align: left;
 }
 
-.card__face--back h4{
+.card__face--back h4 {
     color: aquamarine;
 }
 
-.work{
+.work {
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.how-we-work h2{
+.how-we-work h2 {
     text-align: center;
     color: #033535;
     font-size: 3rem;
@@ -400,23 +454,161 @@ li {
     margin-bottom: 3rem;
 }
 
-span{
+span {
     margin-left: 2rem;
 }
 
+
+
+
+#counter {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#counter h4 {
+    color: #033535 !important;
+    font-size: large !important;
+}
+
+.count-main {
+    text-align: center;
+}
+
+.count-main span {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #033535;
+}
+
+.count-main {
+    width: 220px;
+    margin: 1rem;
+}
+
+#counter {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 0rem;
+    background-color: #edf7f1;
+}
+
+.count-main h4 {
+    font-size: 2rem;
+}
+
+/* .plus{
+    margin-left: 0px;
+} */
+
+
+.Background-fixed {
+    background-attachment: fixed;
+    background-position: center;
+}
+.ImageBackgroundWrap {
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ImageInnerWrap {
+    max-width: 100%;
+    margin: 0 ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.TextBackground {
+   background-color: rgba(0, 45, 37, 0.83);
+    color: white;
+    text-align: center;
+}
+
+.nav-btn1{
+    background-color: #033535;
+    color: white !important;
+    border: 2px solid #033535;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.email-data{
+    width: 850px !important;
+}
+
+.email-data input{
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 1.5px solid black;
+    color: black;
+}
+
+.email-cont{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.mail-content h2{
+    color: #033535;
+    font-weight: 700;
+}
+
+.mail-content button{
+    background-color: #033535;
+    color: white;
+    border: none;
+}
+
+.text-forms{
+    width: 93% !important;
+}
+
+.mail-content{
+    text-align: center;
+    padding: 5rem;
+}
+
+.card__face--back{
+    text-align: left !important;
+}
+
+.card__face--back p{
+    text-align: left;
+}
+
+.card__face--back a{
+    font-size: 1rem;
+    color: white !important;
+    text-decoration: none;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    cursor: pointer;
+    z-index: 500;
+}
+
 @media screen and (max-width: 650px) {
-    body{
+    body {
         width: 100%;
         overflow-x: hidden !important;
     }
-    
-    .flex{
+
+    .flex {
         flex-direction: column;
     }
 
-    
 
-    .navbar-brand img{
+
+    .navbar-brand img {
         width: 150px;
         margin-left: 1rem;
     }
@@ -431,7 +623,7 @@ span{
         padding: 1rem !important;
     } */
 
-    .slider{
+    .slider {
         flex-direction: column;
         margin-right: 0 !important;
     }
@@ -441,15 +633,15 @@ span{
         text-align: center;
     }
 
-    .abt-us{
+    .abt-us {
         flex-direction: column-reverse;
     }
 
-    .abt-1{
+    .abt-1 {
         width: 100% !important;
     }
 
-    .abt-1 img{
+    .abt-1 img {
         width: 100% !important;
     }
 
@@ -458,7 +650,7 @@ span{
         text-align: justify;
     }
 
-    .ser-cont{
+    .ser-cont {
         display: flex;
         flex-direction: row;
         padding: 0 !important;
@@ -471,107 +663,142 @@ span{
         height: 300px;
         padding: 0 !important;
     }
-    .work img{
+
+    .work img {
         width: 100%;
     }
 
-    .footer{
+    .footer {
         flex-direction: column;
     }
 
-    section{
+    section {
         padding: 1rem !important;
     }
 
-    .ban-content{
+    .ban-content {
         padding: 1rem !important;
         width: 100vw;
     }
 
-    .ban-content p{
+    .ban-content p {
         width: 90%;
     }
 
-    .ban-img img{
+    .ban-img img {
         width: 100% !important;
     }
 
-    .ban-img{
+    .ban-img {
         width: 100vw !important;
     }
 
-    .abt-content h2{
+    .abt-content h2 {
         text-align: left;
         font-size: 2rem;
         margin-top: -5rem;
     }
 
-    .service h2, .service p{
+    .service h2,
+    .service p {
         margin: 0 1rem;
         margin-bottom: 2rem;
     }
 
-    .service h2{
+    .service h2 {
         font-size: 2rem;
     }
 
-    .count-main{
+    .count-main {
         width: 100% !important;
         margin: 0rem;
     }
-    
-    #counter{
+
+    #counter {
         flex-wrap: wrap;
         justify-content: center;
         padding: 5rem 1rem;
         background-color: #a7b2b228;
     }
 
-    .card__face--back p{
+    .card__face--back p {
         padding: 0;
         margin: 0;
     }
-}
 
+    .bs{
+        padding: 2rem !important;
+    }
 
-#counter{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
+    .bs-content {
+        padding: 2rem;
+    }
 
-#counter h4{
-    color: #033535 !important;
-    font-size: large !important;
-}
+    .email-data input{
+        width: 350px !important;
+    }
 
-.count-main{
-    text-align: center;
-}
+    .email-data{
+        width: 100% !important;
+    }
 
-.count-main span{
-    padding: 0 !important;
-    margin: 0 !important;
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #033535;
-}
+    .mail-content{
+        padding: 2rem !important;
+    }
 
-.count-main{
-    width: 220px;
-    margin: 1rem;
-}
+    .count-main{
+        margin-top: 4rem;
+    }
 
-#counter{
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 5rem 0rem;
-    background-color: #a7b2b228;
-}
+    .nav-btn{
+        display: none;
+    }
 
-.count-main h4{
-    font-size: 2rem;
+    .banner h2{
+        margin-top: 40%;
+    }
+
+    .social-icons{
+        /* margin-top: 1rem; */
+        display: none;
+    }
+
+    .abt-us{
+        margin-top: 5rem;
+    }
+
+    nav{
+        padding: 1rem !important;
+    }
+
+    .navbar-brand img{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .navbar-brand{
+        margin-left: -2rem;
+    }
+
+    .bs h3{
+       font-size: 2.8rem !important;
+    }
+
+    .bs-content {
+        padding: 2rem !important;
+    }
+
+    .navbar-toggler{
+        border: none;
+        outline: none;
+    }
+
+    .navbar-nav li{
+       margin: 1rem .5rem;
+    }
+
+    .whatsapp img{
+        right: 0rem !important;
+    }
+
 }
-/* .plus{
-    margin-left: 0px;
-} */
