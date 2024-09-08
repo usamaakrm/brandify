@@ -15,6 +15,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -36,7 +37,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="./index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About us</a>
@@ -79,7 +80,7 @@
   <!-- <a href=""><button class="btn1">Book Intro Call</button></a> -->
 
   <section class="banner  flex">
-    <h2>10+ year of hands on experience</h2>
+    <h2 class="text"> </h2>
     <div class="social-icons">
        <li><a href="mailto:brandscapestudios@gmail.com"><img src="./assests/img/email.png" alt="" width="35"></a></li>
        <li><a href="https://www.instagram.com/brandify.my?igsh=MThvZjlhb296cTZmcw=="><img src="./assests/img/instagram.png" alt="" width="35"></a></li>
@@ -87,6 +88,20 @@
        <!-- <li><a href=""><img src="./assests/img/linkedin.png" alt="" width="35"></a></li> -->
     </div>
   </section>
+
+  <script>
+    var typing=new Typed(".text", {
+        strings: ["", "Empowering Your <span>Brand</span> To Lead.", 
+        "Emerging <span>Businesses</span> With Over <span>5000+</span> Designs.",
+         "<span>300+</span> Social Media Campaigns, <span>20+</span> Websites & Apps Delivered.",
+          "Elevating <span>Brands</span> With Innovative <span>Solutions.</span>", 
+          "Achieved <span>Growth</span> With <span>20M+</span> In Sales Across Industries.",
+          "Delivered <span>Creative Excellence</span> Across <span>7</span> Countries."],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+    });
+ </script>
 
 
   <section class="abt-us flex">
@@ -532,7 +547,7 @@
             <img src="./assests/img/china-town (1).png" alt="">
             <h5>China</h5>
           </div>
-          <div>
+          <div class="hid">
             <img src="./assests/img/gardens (2).png" alt="">
             <h5>Singapore</h5>
           </div>

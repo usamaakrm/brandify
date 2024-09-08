@@ -455,11 +455,9 @@ li {
 }
 
 span {
-    margin-left: 2rem;
+    color: orange;
+    border: none;
 }
-
-
-
 
 #counter {
     display: flex;
@@ -606,7 +604,9 @@ span {
         flex-direction: column;
     }
 
-
+    .banner{
+        height: 60vh;
+    }
 
     .navbar-brand img {
         width: 150px;
@@ -735,7 +735,7 @@ span {
     }
 
     .email-data input{
-        width: 350px !important;
+        width: 80% !important;
     }
 
     .email-data{
@@ -743,11 +743,11 @@ span {
     }
 
     .mail-content{
-        padding: 2rem !important;
+        padding: 1rem !important;
     }
 
     .count-main{
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
 
     .nav-btn{
@@ -797,8 +797,46 @@ span {
        margin: 1rem .5rem;
     }
 
-    .whatsapp img{
-        right: 0rem !important;
+    .whatsapp {
+        right: 0.5rem !important;
     }
 
+    .footer{
+        padding: 0rem !important;
+    }
+
+    .footer div {
+        margin: 2rem 1rem;
+    }
+
+    .f3 img{
+        width: 40px;
+    }
+
+    .f3 div{
+        margin-right: .5rem;
+    }
+
+    .ff3{
+        width: 300px;
+    }
+
+    .hid{
+        display: none;
+    }
+
+    .text{
+        font-size: 1.3rem !important;
+    }
 }
+
+.text{
+    color: white;
+      font-size: 2rem !important;
+      width: 100% !important;
+      border: none !important;
+  }
+
+  .typed-cursor{
+    display: none !important;
+  }
