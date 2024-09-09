@@ -830,12 +830,12 @@ span {
 
     .text{
         font-size: 1.2rem !important;
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
 }
 
 .text{
-    color: white;
+      color: white;
       font-size: 2rem !important;
       width: 100% !important;
       border: none !important;
