@@ -835,14 +835,15 @@ span {
         width: 300px;
     }
 
-    /* .hid{
+    .hid{
         display: none;
-    } */
+    }
 
     .text{
         font-size: 1.5rem !important;
         /* margin-top: 5rem !important; */
         top: 50% !important;
+        font-weight: 600 !important;
     }
 }
 
