@@ -597,6 +597,17 @@ span {
     z-index: 500;
 }
 
+.text{
+    color: white;
+    font-size: 2rem !important;
+    width: 100% !important;
+    border: none !important;
+}
+
+.typed-cursor{
+  display: none !important;
+}
+
 @media screen and (max-width: 650px) {
     body {
         width: 100%;
@@ -829,18 +840,9 @@ span {
     } */
 
     .text{
-        font-size: 1.2rem !important;
-        margin-top: 5rem;
+        font-size: 1.5rem !important;
+        /* margin-top: 5rem !important; */
+        top: 50% !important;
     }
 }
 
-.text{
-      color: white;
-      font-size: 2rem !important;
-      width: 100% !important;
-      border: none !important;
-  }
-
-  .typed-cursor{
-    display: none !important;
-  }
