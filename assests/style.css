@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0 ;
+    scroll-behavior: smooth;
 }
+
+
 
 body {
     width: 100% !important;
@@ -821,12 +824,13 @@ span {
         width: 300px;
     }
 
-    .hid{
+    /* .hid{
         display: none;
-    }
+    } */
 
     .text{
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
+        margin-top: 3rem;
     }
 }
 
