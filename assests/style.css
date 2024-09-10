@@ -854,14 +854,15 @@ span {
         font-size: 1.5rem !important;
         top: 70% !important;
         font-weight: 600 !important;
-        padding-top: 3rem;
+        padding-top: 3rem !important;
+        align-content: 70%;
     }
 
     
 
 .dfd{
     padding: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .bs-content{
