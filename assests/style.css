@@ -608,6 +608,16 @@ span {
   display: none !important;
 }
 
+.dfd{
+    background-color: #033535;
+    color: white;
+    padding: 2rem 5rem;
+}
+
+.bs-content{
+    padding: 2rem 5rem !important;
+}
+
 @media screen and (max-width: 650px) {
     body {
         width: 100%;
@@ -745,7 +755,8 @@ span {
     }
 
     .bs-content {
-        padding: 2rem;
+        padding: 0rem;
+        
     }
 
     .email-data input{
@@ -841,9 +852,19 @@ span {
 
     .text{
         font-size: 1.5rem !important;
-        /* margin-top: 5rem !important; */
-        top: 50% !important;
+        top: 70% !important;
         font-weight: 600 !important;
+        padding-top: 3rem;
     }
+
+    
+
+.dfd{
+    padding: 2rem;
+    font-size: 1.5rem;
 }
 
+.bs-content{
+    padding: 2rem !important;
+}
+}
